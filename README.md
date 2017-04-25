@@ -1,6 +1,6 @@
 # npmtest-resolve-url-loader
 
-#### test coverage for  [resolve-url-loader (v2.0.2)](https://github.com/bholloway/resolve-url-loader)  [![npm package](https://img.shields.io/npm/v/npmtest-resolve-url-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-resolve-url-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-resolve-url-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-resolve-url-loader)
+#### basic test coverage for  [resolve-url-loader (v2.0.2)](https://github.com/bholloway/resolve-url-loader)  [![npm package](https://img.shields.io/npm/v/npmtest-resolve-url-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-resolve-url-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-resolve-url-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-resolve-url-loader)
 
 #### Webpack loader that resolves relative paths in url() statements based on the original source file
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-resolve-url-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-resolve-url-loader/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-resolve-url-loader/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-resolve-url-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-resolve-url-loader/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-resolve-url-loader/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-resolve-url-loader/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
         "url": "git+https://github.com/bholloway/resolve-url-loader.git"
     },
     "scripts": {},
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
 ```
 
